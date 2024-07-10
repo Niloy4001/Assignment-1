@@ -205,6 +205,7 @@ main{
     width: 100%;
     height: 614px;
     padding: 32px;
+    margin-top: 30px;
 }
 .inspiration .inspiration-video-box iframe{
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -396,6 +397,7 @@ footer{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);  
     padding: 32px 150px 32px 150px;  
+    margin-bottom: 0px;
 }
 .footer-container{
     display: flex;
