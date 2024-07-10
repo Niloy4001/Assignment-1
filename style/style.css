@@ -109,7 +109,7 @@ body {
 }
 /* web-development section style ************************************ */
 main{
-    width: 1440px;
+    max-width: 1440px;
     height: auto;
     border: 1px solid black;
     margin: 0 auto;
@@ -322,3 +322,69 @@ main{
 
 }
 /* Feed-back section ********************************************************** */
+.feedback{
+    width: 1140px;
+    height: 313px;
+    margin: 70px auto;
+    padding: 64px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 16px;
+  }
+.feedback .feedback-container{
+    width: 1044px;
+    height: 185px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.feedback-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.feedback-container p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.feedback-input-btn-container{
+    width: 700px;
+    height: 60px;
+}
+.feedback-input-btn-container input{
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+    height: 22px;
+}
+.feedback-input-btn-container button{
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    width: 22%;
+    height: 65px;
+    cursor: pointer;
+
+}
+/* Footer section ********************************************************** */
