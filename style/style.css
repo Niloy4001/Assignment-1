@@ -58,7 +58,8 @@ body {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
-    font-weight: 600;    
+    font-weight: 600; 
+    cursor: pointer;   
 }
 
 /* Banner section style ************************************ */
@@ -107,11 +108,11 @@ body {
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
 }
+
 /* web-development section style ************************************ */
 main{
     max-width: 1440px;
     height: auto;
-    border: 1px solid black;
     margin: 0 auto;
 }
 .web-dev{
@@ -210,7 +211,7 @@ main{
     border-radius: 16px;
 }
 
-/* Curren Target section style *************************************************** */
+/* Current Target section style *************************************************** */
 .current-target {
     width: 1140px;
     height: 460px;
@@ -388,3 +389,34 @@ main{
 
 }
 /* Footer section ********************************************************** */
+footer{
+    width: 1440px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);  
+    padding: 32px 150px 32px 150px;  
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 525px;
+}
+.footer-container .footer-content{
+
+}
+.footer-container .footer-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;    
+}
+.footer-container .footer-icon{
+    display: flex;
+    gap: 24px;
+}
+.footer-container .footer-icon img{
+    width: 36px;
+    height: 36px;
+}
